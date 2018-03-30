@@ -1,0 +1,2 @@
+# myGit
+for test git
