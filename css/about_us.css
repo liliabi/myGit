@@ -1,0 +1,74 @@
+.about_us {
+    box-sizing: border-box;
+    width: 100%;
+    height: 119px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    color: #686868;
+    position: relative;
+    background: #f8fafc;
+}
+
+.about_us i {
+    font-size: 41px;
+}
+
+.about_us_btn {
+    width: 245px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about_us_btn_center {
+    float: left;
+    width: 245px;
+    height: 100px;
+    padding-top: 4px;
+    cursor: pointer;
+	color: #2b60ab;
+}
+
+.about_us_text {
+    font-size: 18px;
+    margin: 0;
+    margin-top: 70px;
+}
+
+
+.company_section {
+	font-family:"微软雅黑";
+    background: #fafafa;
+}
+
+.public_sections_style {
+    width: 100%;
+    position: relative;
+    padding-top: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.company_section .public_sections_title_en,
+.global_section .public_sections_title_en {
+    color: #666;
+}
+.company_section_switch{
+	background: #ffffff;
+	
+}
+.company_content {
+    padding: 40px 0;
+	width:900px;
+	margin:0 auto;
+	text-align:left;
+	text-indent:2em;
+}
+.company_content p{
+    margin-bottom:20px;
+}
+
+.company_section img{
+	width:900px;
+}
