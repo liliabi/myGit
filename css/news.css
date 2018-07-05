@@ -1,0 +1,100 @@
+html{
+	font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+}
+
+.news-warp{
+	width:100%;
+	background-color:#f4f4f4;
+	padding:60px 0;
+}
+
+.news-warp .warp{
+	width:1200px;
+	margin:0 auto 70px;
+}
+
+.news-warp .warp .title{
+	margin-bottom:30px;
+	font-size:28px;
+	color:#222;
+	text-align:center;
+}
+
+.news-warp .warp h2{
+	line-height:66px;
+	text-align:center;
+	font-weight: normal;
+	margin:0;
+}
+
+.news-warp .warp li{
+	margin-bottom:30px;
+	cursor:pointer;
+}
+.news-warp .warp li .bor:hover{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.2)
+}
+.news-warp .warp li .bor {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;  
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.05);
+}
+
+.f-cb {
+    zoom: 1;
+}
+.f-cb:after {
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+    content: ".";
+}
+.news-warp .warp .list1 .pic {
+    margin: 30px 0 30px 30px;
+	width: 310px;
+    height: 181px;
+    float: left;
+    overflow: hidden;
+}
+ .news-warp .warp .list1 .box {
+    padding: 30px 0;
+	width: 640px;
+    float: left;
+    margin-left: 45px;
+}
+
+.news-warp .warp .list1 .box h3{
+	font-size: 20px;
+	line-height: 30px;
+    color: #222;
+    margin-bottom: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news-warp .warp .list1 .box .details{
+	font-size: 14px;
+    line-height: 24px;
+	color: #666;
+    height: 90px;
+    margin-bottom: 15px;
+}
+
+.news-warp .warp .list1 .box .year{
+	width: 100%;
+    font-size: 14px;
+    line-height: 28px;
+}
+.news-warp .warp li .arr{
+	float: right;
+    width: 59px;
+    border-left: 1px solid #f2f2f2;
+    height: 241px;
+    background: url(../images/news-icon1.png) center no-repeat;
+}
