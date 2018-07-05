@@ -333,6 +333,39 @@ select option {
 .footer-bottom .copy a:hover {
     color: #fff;
 }
+/*分页样式*/
+
+.page {
+    font-size: 0;
+    text-align: center;
+    padding: 50px 0 0;
+}
+.page a.active, .page a:hover {
+    background: #3651a8;
+    border-color: #3651a8;
+    color: #fff;
+}
+.page a {
+    display: inline-block;
+    zoom: 1;
+    width: 39px;
+    height: 39px;
+    border: 1px solid #d2d2d2;
+    font-size: 18px;
+    color: #666;
+    margin: 0 5px;
+    line-height: 39px;
+    vertical-align: top;
+    transition: all .3s linear;
+}
+a {
+    background: transparent;
+    text-decoration: none;
+    color: #08c;
+}
+.page a.next {
+    background: url(../images/page-next.png) no-repeat center;
+}
 
 .clearfix:after {
     content: '\0020';
